@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+header { background: #007bff; color: white; padding: 10px; text-align: center; }
+nav a { color: white; margin: 0 10px; text-decoration: none; }
+main { padding: 20px; }
+footer { background: #28a745; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+form { max-width: 500px; margin: auto; }
+input, select, textarea, button { width: 100%; margin: 5px 0; padding: 10px; box-sizing: border-box; }
+button { background: #28a745; color: white; border: none; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background: #007bff; color: white; }
+.calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; }
+.calendar div { padding: 10px; border: 1px solid #ddd; }
+@media (max-width: 600px) { nav { flex-direction: column; } }
